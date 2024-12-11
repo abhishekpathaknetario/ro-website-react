@@ -1,0 +1,101 @@
+.zn {
+  z-index: -1;
+}
+.ro {
+  position: absolute;
+  right: 0;
+  top: 15rem;
+  display: none;
+}
+
+@media (min-width: 765px) and (max-width: 850px) {
+  .hero {
+    height: 40vh;
+  }
+  .hero-text-area {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 850px) and (max-width: 1100px) {
+  .hero {
+    height: 60vh;
+  }
+  .hero-text-area {
+    margin-top: 9rem;
+  }
+}
+@media (min-width: 850px) and (max-width: 1000px) {
+  .hero {
+    height: 60vh;
+  }
+  .hero-text-area {
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1400px) {
+  .hero {
+    height: 75vh;
+  }
+  .hero-text-area {
+    margin-top: 11rem;
+  }
+}
+@media (min-width: 1400px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero-text-area {
+    margin-top: 12rem;
+  }
+}
+@media (max-width: 760px) {
+  .hero-text-area {
+    margin-top: 2rem;
+  }
+
+  .hero {
+    height: 35vh;
+  }
+  .hero-container {
+    margin-bottom: 100px;
+  }
+  .ro {
+    position: absolute;
+    right: 0;
+    top: 15rem;
+    background-color: rebeccapurple;
+    /* display: block; */
+  }
+}
+@media (width: 320px) {
+  .hero {
+    height: 60vh;
+  }
+ .hero-btns{
+
+ 
+ }
+}
+
+
+.hero-container {
+  position: relative;
+}
+
+.hero-text-area {
+  margin-bottom: 30px;
+}
+
+.hero img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-text-area {
+    margin-bottom: 20px;
+  }
+  .hero img {
+    max-width: 90%;
+  }
+}
+
